@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet"  type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+	<title>menu</title>
+</head>
+<body>
+	<center><a href="index.html"><h1>21vek.by</a></h1></center>
+<header>
+	<nav class="dws-menu">
+		<ul>
+			<li><a href="#"><i class="fa fa-home"></i>Главная</a></li>
+			<li><a href="#"><i class="fa fa-shopping-cart"></i>Бытовая техника</a>
+				<ul>
+					<li><a href="#">Стиральные машины</a>
+					<li><a href="#">Пылесосы</a></li>
+					<li><a href="#">Швейные, вышивальные машины</a></li>
+					<li><a href="#">Утюги</a></li>
+					<li><a href="#">Электровеники</a></li>
+					<li><a href="#">Сушилки для обуви</a></li>
+					</li>
+					<li><a href="#">Компьютерная техника</a>
+						<ul>
+							<li><a href="#">Ноутбуки</a></li>
+							<li><a href="#">Планшеты</a></li>
+							<li><a href="#">Компьютеры, моноблоки</a>
+							<li><a href="#">Игровые приставки</a></li>
+							<li><a href="#">Серверное оборудование</a></li>
+								
+							</li>
+						</ul>
+					</li>
+					
+				</ul>
+			</li>
+			<li><a href="#"><i class="fa fa-cogs"></i>Техника для кухни</a>
+				<ul>
+					<li><a href="#">Холодильники</a></li>
+					<li><a href="#">Кухонные плиты</a></li>
+					<li><a href="#">Морозильники</a></li>
+					<li><a href="#">Настольные плиты</a></li>
+					<li><a href="#">Ростеры, мини-печи</a></li>
+					<li><a href="#">Вытяжки</a></li>
+					<li><a href="#">Микроволновые печи</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class="fa fa-th-list"></i>Корзина</a></li>
+			<li><a href="Contacts.html">Контакты</a></li>
+		</ul>
+	</nav>
+</header>
+ <form class="form-registration" action="/action_page.php">
+    <label for="name">Имя</label>
+    <input class="form-input" type="text" id="name" name="firstname" placeholder="Ваше имя.." required>
+
+    <label for="email">E-mail</label>
+    <input class="form-input" type="email" id="email" name="email" placeholder="some@email.com" required>
+
+    <label for="Adres">Адрес доставки</label>
+    <select class="form-input" id="Adres" name="Strit" required>
+      <option value="Minsk">Минск</option>
+      <option value="Brest">Брест</option>
+      <option value="Mogilev">Могилев</option>
+      <option value="Gomel">Гомель</option>
+      <option value="Grodno">Гродно</option>
+      <option value="Vitebsk">Витебск</option>
+    </select>
+
+    <input class="form-input form-input_type-submit" type="submit" value="Отправить заказ">
+</form>
+</body>
+</html>
