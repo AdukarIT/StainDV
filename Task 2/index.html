@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Photogram</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body { background: green; }
+</style>
+</head>
+<body>
+	<center>
+	<h1>Photogram</h1>
+</center>
+    <form class="form-registration" action="/action_page.php">
+    <label for="name">Имя</label>
+    <input class="form-input" type="text" id="name" name="firstname" placeholder="Ваше имя.." required>
+
+    <label for="email">E-mail</label>
+    <input class="form-input" type="email" id="email" name="email" placeholder="some@email.com" required>
+
+    <label for="country">Страна</label>
+    <select class="form-input" id="country" name="country" required>
+      <option value="australia">Australia</option>
+      <option value="belarus">Belarus</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <input class="form-input form-input_type-submit" type="submit" value="Войти">
+</form>
+</body>
+</html>
+
