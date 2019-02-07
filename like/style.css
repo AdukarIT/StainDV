@@ -1,0 +1,21 @@
+a {
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 80px;
+	
+}
+
+a:hover {
+   color: 	rgb(255,0,0);
+   
+}
+
+a:visited {
+	color: 	rgb(192,192,192);
+}
+
+a:visited:hover {
+
+	color: rgb(0,0,255);
+
+}
