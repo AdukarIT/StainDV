@@ -1,0 +1,41 @@
+
+
+ .animation {
+	background-image:url(sheet.jpg);
+	height:135px;
+	animation-fill-mode:both;
+	width:65px;
+	animation:speed 0.1s;
+	margin:150px;
+}
+ @keyframes speed{
+	0% { 
+		 transition-timing-function: ease;
+	background-position:462px;
+	}
+	17% {
+		 transition-timing-function: ease;
+	background-position:396px;
+	}
+	34% {
+		 transition-timing-function: ease;
+	background-position:330px;
+	}
+	51% {
+		 transition-timing-function: ease;
+	background-position:264px;
+	}
+	68% {
+		 transition-timing-function: ease;
+	background-position:198px;
+	}
+	85% {
+		 transition-timing-function: ease;
+	background-position:132px ;
+	}
+	100% {
+		 transition-timing-function: ease;
+	background-position:66px;
+	}
+
+}
