@@ -1,0 +1,15 @@
+.within {
+	display:none;
+}
+.without {
+	display:none;
+}
+.icon:checked ~ .within {
+display:block;
+}
+.icon1:checked ~ .without {
+display:block;
+}
+
+
+
